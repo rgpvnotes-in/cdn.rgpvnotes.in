@@ -1,0 +1,58 @@
+#second-year{display: none;}
+#third-year{display: none;}
+#fourth-year{display: none;}
+.hbtn {
+position: relative;
+display: inline-block;
+margin: 1%;
+padding: 10px;
+color: #fff;
+font-weight: bold;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 5px 5px 5px 5px;
+background: #000;
+font-size: 60%;
+}
+.hbtn:hover {
+-webkit-animation: rubberBand .8s 1;
+-moz-animation: rubberBand .8s 1;
+-o-animation: rubberBand .8s 1;
+animation: rubberBand .8s 1;
+color:#000;
+}
+.hbtn:hover, .hbtn:focus, .btn-current {
+color: #fff;
+}
+.yearheader{
+border-radius: 5px 5px 5px 5px;
+border: 2px solid #fff;
+background-color:transparent;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+margin-bottom: 1%;
+margin-top: 3%;
+padding: 1%;
+text-align: center;
+background: rgba(0, 0, 0, 0.4);
+}
+.yearheader a{
+color: #fff;
+text-decoration: none;
+}
+.yearheader h1{
+color: #fff;
+font-weight: bold;
+}
+.yearheader h2{
+color:#fff;
+font-size:200%;}
+
+.yearbutton{
+color:#s673ab7;
+}
+
+
+.navbar { display: none;}
+.nav-scroll {display: block;}

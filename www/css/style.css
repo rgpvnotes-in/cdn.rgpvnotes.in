@@ -1,0 +1,44 @@
+body{background: #000; color: #fff;}
+div{margin:0.5em;}
+button{margin: 1em 0px 0px 1em;}
+.page-img{width:100%; max-width:300px; height:auto; margin-top: 5em;}
+.custom-padding-for-alert-img{padding:20px;background-color:#fff;}
+
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:#161617}
+::-webkit-scrollbar-thumb{background:#f0f0f0}
+::-webkit-scrollbar-thumb:hover{background:#f8f8f8}
+
+
+            caption{
+                font-weight: bold;
+                font-size: 30px;
+                color:#ffffff;
+                text-align: center;
+            }
+            table, th, td {
+            background-color: #ffffff;
+            border: 1px solid black;
+            color: black;
+            font-weight: bold;
+            }
+            td>a{
+            text-decoration: none;
+            }
+            table {
+            border-radius: .5em;
+            }
+            .payment-logo{
+                height: 32px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                .page-img{width:100%; max-width:300px; height:auto; margin-top: .1em;}
+            
+                caption{
+                    font-weight: bold;
+                    font-size: 10px;
+                    color:#ffffff;
+                    text-align: center;
+                }
+              }            
