@@ -1,0 +1,16 @@
+/* custom CSS */
+.bg-dark {
+  background-color: #161617 !important;
+}
+
+.bg-secondary {
+  background-color: #212529 !important;
+}
+
+.bg-notes {
+  background-color: #f56743;
+}
+
+.page-h1 {
+  font-size: 3rem;
+}
