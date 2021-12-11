@@ -14,3 +14,8 @@
 .page-h1 {
   font-size: 3rem;
 }
+
+#app > div:nth-child(2) > div > div {
+  justify-content: center !important;
+  display: flex !important;
+}
