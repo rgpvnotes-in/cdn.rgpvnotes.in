@@ -428,6 +428,7 @@ border-bottom: 0;
 border-top-color: #fff;
 }
 .Tooltip-btn:focus+.Tooltip-box,
+.Tooltip-btn:hover+.Tooltip-box,
 .Tooltip-box:hover {
 visibility: visible;
 opacity: 1;
